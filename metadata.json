@@ -1,0 +1,24 @@
+{
+  "name": "rlenglet-locales",
+  "version": "0.1.0",
+  "source": "https://github.com/rlenglet/puppet-locales.git",
+  "author": "Romain Lenglet",
+  "license": "Apache License, Version 2.0",
+  "summary": "System locales configuration",
+  "description": "Configures the system locales",
+  "project_page": "https://github.com/rlenglet/puppet-locales",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian"
+    },
+    {
+      "operatingsystem": "Ubuntu"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "rlenglet/debconf_package",
+      "version_requirement": ">= 0.1.0"
+    }
+  ]
+}
